@@ -32,7 +32,7 @@ function resetGame() {
     colors[index].style.backgroundColor = generateRgbColor();
   }
   mensage.innerText = 'Escolha uma cor';
-  colorOfRound = Math.round(Math.random() * colors.length);
+  colorOfRound = Math.round(Math.random() * (colors.length - 1));
   color.innerText = colors[colorOfRound].style.backgroundColor.slice(3, 18);
 }
 
