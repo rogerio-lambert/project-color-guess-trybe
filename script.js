@@ -13,7 +13,7 @@ function testGuess(event) {
   selectedColor = event.target;
   if (selectedColor === colors[colorOfRound]) {
     mensage.innerText = 'Acertou!';
-    score.innerText = `${parseInt(score.innerText) + 3}`;
+    score.innerText = `${parseInt(score.innerText, 10) + 3}`;
   } else {
     mensage.innerText = 'Errou! Tente novamente!';
   }
