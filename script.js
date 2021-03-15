@@ -1,3 +1,4 @@
+// Esta página pode ser vista na url https://rogerio-lambert.github.io/javaScript-DOM/color-guess/color-guess.html
 // Bloco de declaração de variáveis globais
 
 const colors = document.getElementsByClassName('ball');
